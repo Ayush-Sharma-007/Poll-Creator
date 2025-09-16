@@ -4,7 +4,7 @@ import axios from 'axios';
 import { useParams } from 'next/navigation';
 import React, { useEffect, useRef, useState } from 'react'
 import QRCode from 'react-qr-code';
-import ReactWordcloud from 'react-wordcloud';
+import ReactWordcloud from 'react-wordcloud-plus';
 import { io } from 'socket.io-client';
 
 // const words = [
